@@ -25,6 +25,10 @@
     vertical-align: middle;
     text-align: center;
 }
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
 /*Fine Regole menu nav*/
 
 /*Sfondi sezioni*/
