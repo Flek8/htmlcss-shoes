@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
-}
+} /*Regole generali*/
+
+/*Regole menu nav*/
 .menu{
     height: 35px;
     display: inline-block;
@@ -23,11 +25,9 @@
     vertical-align: middle;
     text-align: center;
 }
-.shoe{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
+/*Fine Regole menu nav*/
+
+/*Sfondi sezioni*/
 #scarpa1{
     background-color: red;
 }
@@ -36,6 +36,14 @@
 }
 #scarpa3{
     background-color: yellow;
+}
+/*Fine Sfondi sezioni*/
+
+/*Interno Sezioni*/
+.shoe{
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 .shoe img{
     width: 50%;
@@ -57,3 +65,4 @@ h2{
 #scarpa3 h2{
     color: green;
 }
+/*Fine Interno Sezioni*/
